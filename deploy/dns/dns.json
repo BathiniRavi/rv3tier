@@ -1,0 +1,18 @@
+{
+  "Comment": "optional comment about the changes in this change batch request",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "rvapp123.student19.courseandlabs.com",
+        "Type": "CNAME",
+        "TTL": 1000,
+        "ResourceRecords": [
+          {
+            "Value": "FELBNAME"
+          }
+        ]
+      }
+    }
+  ]
+}
